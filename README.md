@@ -17,7 +17,11 @@ A simple Python CLI tool to explore and search CSV files. Fully Dockerized for u
 
 This project is fully containerized with Docker.
 
-### 🔧 Build the Docker Image
+### 🔧 Run the Docker Image
 
 ```bash
-docker build -t csv-processor .
+docker run -it csv-processor
+
+
+---
+
