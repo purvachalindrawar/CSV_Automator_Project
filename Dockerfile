@@ -1,14 +1,14 @@
-# Base image
+# 🐍 Use Python base image
 FROM python:3.11-slim
 
-# Set working directory
+# 📁 Set working directory
 WORKDIR /app
 
-# Copy your files
+# 📦 Copy local files into the container
 COPY . .
 
-# Install dependencies
+# ✅ Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Command to run your app
+# 🚀 Default command
 CMD ["python", "app.py"]
